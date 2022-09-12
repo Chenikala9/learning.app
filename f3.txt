@@ -1,2 +1,34 @@
-how are you
-
+first of all we need to introduce ourself to git hub.then we need to do some commands are there---
+-------------------------
+1)at firstly to download the git bash
+2)to create account in git hub
+3)to create local repository in git hub give to public access to that
+4)some code will be created there.
+5)to introduce ourself to git bash using commands
+     git config global user.email   "email"
+      git config global user.name   "name"
+6)we have created flies in local repository and using intilize:git init
+7)tracked files are nothing files are elibile to commit to local repository    using:git add .(or)git add --a
+8)file are came to local repository using the command is:git commit -m "type some message"
+"before central repository created some command using the last three commands just copy to enter into git bash conformly if you created new project"
+9)if need to send files to local to central or remote repository we need to use the command is :git push 
+10)git pull:this command used the download latest code changes in central repository.
+11)git status:using to track the changes and file which are changed
+12)touch f1.txt :using to create the files in local repository
+13)git help:using to show important commands
+14)git clone -b <branch name>:to download total code from particular branch
+15)git checkout  <branch name> :using to change the one branch our needed branch
+16)git merge :using to merge the two branches
+                              ------------------------------------------------
+                        git merge:to preserve the commit history
+                       git rebase :it is not preserve the commit history.
+                       ------------------------------------------------------
+17).gitignore :to ingnore the file
+18)git stash :this is command when your working in any bug fixing suppose manger assigned anthoer bug to us ,
+he said this is important bug you should do fix this nowlater you do your remaing bugs
+whatever you done the make changes in previous bug you may just paste that go to git bash just type the command is git stash it will store the temparary code,if you need that code just use the
+"git stash apply"
+----------------
+     what is branch:used to maintain the several codebases because different teams can work parraellly in the same project ,using the branch process no conflicts get.
+------------
+git fetch :command is used for to know latest code changes and updates
